@@ -18,7 +18,7 @@ import { useRouter } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios from "axios";
 
-const BASE_URL = "http://10.25.53.195:5000";
+const BASE_URL = "https://imts-smart-bus-tracking.onrender.com";
 
 export default function AuthScreen() {
   const router = useRouter();
